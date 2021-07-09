@@ -55,5 +55,5 @@ class ids:
 
 if __name__ == '__main__':
     print("custom packet sniffer ")
-    sniff(filter="ip",iface="eth0",prn=ids().sniffPackets)
+    sniff(filter="ip",iface="enp0s3",prn=ids().sniffPackets)
 
