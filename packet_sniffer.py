@@ -28,12 +28,11 @@ class ids:
             dst_port=packet.dport
             print(", Port: %s --> %s, "%(src_port,dst_port), end='')
             print([type(self).__flagsTCP[x] for x in packet.sprintf('%TCP.flags%')])
-            #self.detect_TCPflood(packet)
+            self.detect_TCPflood(packet)
         else:
             print()
 
 
-    '''
     def detect_TCPflood(self,packet):
         if packet.haslayer(TCP):
             pckt_src=packet[IP].src
@@ -51,9 +50,8 @@ class ids:
                     src = stream.split(':')[0]
                     dst = stream.split(':')[1]
                     print("Possible Flooding Attack from %s --> %s"%(src,dst))
-    '''
 
 if __name__ == '__main__':
     print("custom packet sniffer ")
-    sniff(filter="ip",iface="enp0s3",prn=ids().sniffPackets)
+    sniff(filter="ip",iface="ens3",prn=ids().sniffPackets)
 

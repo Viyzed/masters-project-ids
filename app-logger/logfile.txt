@@ -1,0 +1,28 @@
+10.0.0.58 - - [01/Aug/2021 18:52:50] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:52:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:52:50] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:52:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:53:20] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:53:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:53:20] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:53:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:53:50] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:53:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:53:50] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:53:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:54:20] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:54:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:54:20] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:54:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:54:50] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:54:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:54:50] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:54:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:55:20] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:55:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:55:20] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:55:20] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.0.58 - - [01/Aug/2021 18:55:50] code 501, message Unsupported method ('GET')
+10.0.0.58 - - [01/Aug/2021 18:55:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
+10.0.1.10 - - [01/Aug/2021 18:55:50] code 501, message Unsupported method ('GET')
+10.0.1.10 - - [01/Aug/2021 18:55:50] "GET /home/ubuntu/masters-project-ids/app-logger/simplehttpserver.py HTTP/1.1" 501 -
