@@ -17,27 +17,6 @@ def _enable_linux_iproute():
         print(1, file=f)
 
 
-def _enable_windows_iproute():
-    """
-    Enables IP route (IP Forwarding) in Windows
-    """
-    from services import WService
-    # enable Remote Access service
-    service = WService("RemoteAccess")
-    service.start()
-
-
-def enable_ip_route(verbose=True):
-    """
-    Enables IP forwarding
-    """
-    if verbose:
-        print("[!] Enabling IP Routing...")
-    _enable_windows_iproute() if "nt" in os.name else _enable_linux_iproute()
-    if verbose:
-        print("[!] IP Routing enabled.")
-
-
 def get_mac(ip):
     """
     Returns MAC address of any device connected to the network
@@ -96,7 +75,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     target, host, verbose = args.target, args.host, args.verbose
 
-    enable_ip_route()
+    #_enable_linux_iproute()
     try:
         while True:
             # telling the `target` that we are the `host`
