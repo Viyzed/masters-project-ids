@@ -32,7 +32,7 @@ class GetLogs:
     
     def deleteFile(arraylen, filename):
         s3_client = boto3.client('s3')
-        if (arraylen > 10):
+        if (arraylen > 2):
             response = s3_client.delete_object(
                 Bucket=bucket_name,
                 Key=filename
@@ -43,7 +43,7 @@ class GetLogs:
 
     if __name__ == "__main__":
         while True:
-            if(deleteFile(len(getFileNames()), getFileNames()[0]) == False):
+            if(deleteFile(len(getFileNames()), getFileNames()[0]) == True):
                 download_name = getFileNames()
                 downloadFile(download_name[0])
 
